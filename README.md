@@ -95,69 +95,39 @@ removeAllCartItems() Clears the cart
 🗂️ Implementation Files
 
 <details> <summary>Click to view</summary>
-Use these files to complete the implementation:
 
-src/
-│
-├── App.js
-├── App.css
-├── index.js
-├── index.css
-│
-├── context/
-│   └── CartContext.js
-│
-├── components/
-│   │
-│   ├── Login/
-│   │   ├── index.js
-│   │   └── index.css
-│   │
-│   ├── Header/
-│   │   ├── index.js
-│   │   └── index.css
-│   │
-│   ├── Home/
-│   │   ├── index.js
-│   │   └── index.css
-│   │
-│   ├── Products/
-│   │   ├── index.js
-│   │   └── index.css
-│   │
-│   ├── ProductItemDetails/
-│   │   ├── index.js
-│   │   └── index.css
-│   │
-│   ├── Cart/
-│   │   ├── index.js
-│   │   └── index.css
-│   │
-│   ├── CartItem/
-│   │   ├── index.js
-│   │   └── index.css
-│   │
-│   ├── CartSummary/
-│   │   ├── index.js
-│   │   └── index.css
-│   │
-│   ├── NotFound/
-│   │   ├── index.js
-│   │   └── index.css
-│   │
-│   └── ProtectedRoute/
-│       ├── index.js
-│       └── index.css
-│
-└── assets/
-    ├── logo.png
-    └── banner.png
+  Use these files to complete the implementation:
+
+| Folder / File                      | Description                            |
+| ---------------------------------- | -------------------------------------- |
+| **src/App.js**                     | Main React component, entry for routes |
+| **src/App.css**                    | Global styles for the App              |
+| **src/index.js**                   | Entry point of the app                 |
+| **src/index.css**                  | Root-level styling                     |
+| **context/CartContext.js**         | Context for managing cart state        |
+| **components/Login/**              | Login screen UI and logic              |
+| **components/Header/**             | Navbar and navigation links            |
+| **components/Home/**               | Homepage and promotional content       |
+| **components/Products/**           | Main product list container            |
+| **components/ProductCard/**        | Individual product card                |
+| **components/ProductItemDetails/** | Single product detail page             |
+| **components/FiltersGroup/**       | Product filtering controls             |
+| **components/PrimeDealsSection/**  | Deals section (Prime users)            |
+| **components/Cart/**               | Cart page wrapper                      |
+| **components/CartItem/**           | Each item inside the cart              |
+| **components/CartListView/**       | Cart item listing UI                   |
+| **components/CartSummary/**        | Total cost and checkout summary        |
+| **components/EmptyCartView/**      | View shown when no cart items          |
+| **components/ProtectedRoute/**     | Authentication route wrapper           |
+| **components/NotFound/**           | 404 page when route not found          |
 
 
 </details>
 
 🧩 Component Descriptions
+
 Component Description
+
 Login / LoginForm Handles user authentication (Prime & Non-Prime)
 Header Navigation bar (logo, links, cart count, logout)
 Home Landing page with banner and "Shop Now" button
@@ -190,7 +160,9 @@ Use find() to check if an item already exists in the array:
 const existingItem = cartList.find(each => each.id === newItem.id)
 
 </details>
+
 ⚠️ Important Notes
+
 <details> <summary>Click to view</summary>
 
 Use icons from react-icons:
@@ -209,16 +181,10 @@ Remove button → data-testid="remove"
 
 The product image must have alt={title}.
 
-👤 Login Credentials
+| User Type             | Username | Password     |
+| --------------------- | -------- | ------------ |
+| 🏅 **Prime User**     | `rahul`  | `rahul@2021` |
+| 👤 **Non-Prime User** | `raja`   | `raja@2021`  |
 
-Prime User
-
-username: rahul
-password: rahul@2021
-
-Non-Prime User
-
-username: raja
-password: raja@2021
 
 </details>
