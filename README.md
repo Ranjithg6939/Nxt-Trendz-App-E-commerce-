@@ -17,6 +17,7 @@ In this project, let's build a **Nxt Trendz - Cart Features** by applying the co
 ## 🎨 Design Files
 
 <details>
+  
 <summary>Click to view</summary>
 
 - [Extra Small (Size < 576px) and Small (Size >= 576px)](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-cart-features-sm-output-v0.png)
@@ -29,6 +30,7 @@ In this project, let's build a **Nxt Trendz - Cart Features** by applying the co
 ## ⚙️ Set Up Instructions
 
 <details>
+  
 <summary>Click to view</summary>
 
 - Download dependencies by running
