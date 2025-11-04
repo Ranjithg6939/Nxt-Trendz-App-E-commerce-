@@ -91,7 +91,9 @@ decrementCartItemQuantity() Decreases item quantity
 removeAllCartItems() Clears the cart
 
 </details>
+
 🧱 Components Structure
+
 <details> <summary>Click to view</summary> <br/> <div style="text-align: center;"> <img src="https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-cart-features-component-structure-breakdown.png" alt="component structure breakdown" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)"> </div> </details>
 
 🗂️ Implementation Files
