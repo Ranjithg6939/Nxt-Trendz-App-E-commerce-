@@ -1,0 +1,251 @@
+
+.product-item-details-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  background-color: #f8fafc;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .product-item-details-container {
+    margin-top: 64px;
+  }
+}
+
+.product-details-success-view {
+  width: 90%;
+  max-width: 1110px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .product-details-success-view {
+    width: 95%;
+    padding: 16px;
+  }
+}
+
+
+.product-details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .product-details-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 48px;
+  }
+}
+
+.product-image {
+  width: 100%;
+  max-width: 540px;
+  border-radius: 12px;
+  object-fit: contain;
+  background-color: #f1f5f9;
+}
+
+@media screen and (min-width: 768px) {
+  .product-image {
+    width: 48%;
+  }
+}
+
+.product {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .product {
+    width: 48%;
+  }
+}
+
+
+.product-name {
+  color: #1e293b;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.price-details {
+  color: #0b69ff;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+
+.rating-and-reviews-count {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  background-color: #0b69ff;
+  border-radius: 6px;
+  padding: 4px 8px;
+}
+
+.rating {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 4px;
+}
+
+.star {
+  width: 14px;
+  height: 14px;
+}
+
+.reviews-count {
+  color: #64748b;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin-left: 12px;
+}
+
+
+.product-description {
+  color: #475569;
+  font-family: "Roboto";
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 16px 0;
+}
+
+.label-value-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.label {
+  color: #171f46;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.value {
+  color: #475569;
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.horizontal-line {
+  border-top: 1px solid #e2e8f0;
+  margin: 20px 0;
+}
+
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.quantity-controller-button {
+  background: transparent;
+  border: 1px solid #94a3b8;
+  border-radius: 6px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.quantity-controller-icon {
+  color: #475569;
+  width: 16px;
+  height: 16px;
+}
+
+.quantity {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1e293b;
+  margin: 0 16px;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0753c4;
+}
+
+.add-to-cart-btn {
+  margin-top: 10px;
+}
+
+
+.similar-products-heading {
+  color: #1e293b;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.similar-products-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.products-details-loader-container,
+.product-details-error-view-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+}
+
+.error-view-image {
+  width: 300px;
+  height: 165px;
+}
+
+@media screen and (min-width: 768px) {
+  .error-view-image {
+    width: 540px;
+    height: 290px;
+  }
+}
+
+.product-not-found-heading {
+  color: #1e293b;
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 24px;
+}

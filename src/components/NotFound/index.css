@@ -1,0 +1,24 @@
+
+
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: #f8fafc;
+  padding: 20px;
+}
+
+.not-found-img {
+  width: 100%;
+  max-width: 400px;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .not-found-img {
+    max-width: 500px;
+  }
+}
