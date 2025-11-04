@@ -95,6 +95,8 @@ removeAllCartItems() Clears the cart
 🗂️ Implementation Files
 
 <details> <summary>Click to view</summary>
+Use these files to complete the implementation:
+
 src/
 │
 ├── App.js
@@ -111,10 +113,6 @@ src/
 │   │   ├── index.js
 │   │   └── index.css
 │   │
-│   ├── LoginForm/
-│   │   ├── index.js
-│   │   └── index.css
-│   │
 │   ├── Header/
 │   │   ├── index.js
 │   │   └── index.css
@@ -127,39 +125,11 @@ src/
 │   │   ├── index.js
 │   │   └── index.css
 │   │
-│   ├── AllProductsSection/
-│   │   ├── index.js
-│   │   └── index.css
-│   │
-│   ├── ProductCard/
-│   │   ├── index.js
-│   │   └── index.css
-│   │
 │   ├── ProductItemDetails/
 │   │   ├── index.js
 │   │   └── index.css
 │   │
-│   ├── ProductsHeader/
-│   │   ├── index.js
-│   │   └── index.css
-│   │
-│   ├── SimilarProductItem/
-│   │   ├── index.js
-│   │   └── index.css
-│   │
-│   ├── FiltersGroup/
-│   │   ├── index.js
-│   │   └── index.css
-│   │
-│   ├── PrimeDealsSection/
-│   │   ├── index.js
-│   │   └── index.css
-│   │
 │   ├── Cart/
-│   │   ├── index.js
-│   │   └── index.css
-│   │
-│   ├── CartListView/
 │   │   ├── index.js
 │   │   └── index.css
 │   │
@@ -171,17 +141,18 @@ src/
 │   │   ├── index.js
 │   │   └── index.css
 │   │
-│   ├── EmptyCartView/
+│   ├── NotFound/
 │   │   ├── index.js
 │   │   └── index.css
 │   │
-│   ├── ProtectedRoute/
-│   │   ├── index.js
-│   │   └── index.css
-│   │
-│   └── NotFound/
+│   └── ProtectedRoute/
 │       ├── index.js
 │       └── index.css
+│
+└── assets/
+    ├── logo.png
+    └── banner.png
+
 
 </details>
 
